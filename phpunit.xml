@@ -18,4 +18,7 @@
             <directory suffix=".php">./app</directory>
         </whitelist>
     </filter>
+    <php>
+        <env name="TEST_DATA_PATH" value="./tests/data/"/>
+    </php>
 </phpunit>
